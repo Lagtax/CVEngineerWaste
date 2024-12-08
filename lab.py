@@ -7,7 +7,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Using device: {device}")
 
 # Load the model
-model = YOLO("waste beverage bottles.v4i.yolov8.pt")
+model = YOLO("Trash Recog.v2i.yolov8.pt")
 
 # Set the device after model loading
 model.to(device)
